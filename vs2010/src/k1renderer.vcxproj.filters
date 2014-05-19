@@ -32,9 +32,6 @@
     <ClInclude Include="..\..\src\K1RShader.h">
       <Filter>Renderer</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\K1RMatrix.h">
-      <Filter>Math</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\src\K1RDX9Shader.h">
       <Filter>RendererDX9</Filter>
     </ClInclude>
@@ -58,6 +55,9 @@
     </ClInclude>
     <ClInclude Include="..\..\src\Asset\K1RAsset.hpp">
       <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Math\K1RMatrix.hpp">
+      <Filter>Math</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

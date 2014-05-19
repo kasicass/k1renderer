@@ -3,7 +3,7 @@
 
 #include <memory>
 #include <string>
-#include "K1RMatrix.h"
+#include "Math/K1RMatrix.hpp"
 
 namespace K1R {
 

@@ -1,5 +1,4 @@
-#ifndef K1R_MATH_MATRIX_H
-#define K1R_MATH_MATRIX_H
+#pragma once
 
 #include "Core/Base/K1RBase.hpp"
 
@@ -14,5 +13,3 @@ namespace K1R {
 #endif
 
 }
-
-#endif

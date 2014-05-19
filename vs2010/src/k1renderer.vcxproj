@@ -22,7 +22,6 @@
     <ClInclude Include="..\..\src\K1RDX9RenderableObject.h" />
     <ClInclude Include="..\..\src\K1RDX9Renderer.h" />
     <ClInclude Include="..\..\src\K1RDX9Shader.h" />
-    <ClInclude Include="..\..\src\K1RMatrix.h" />
     <ClInclude Include="..\..\src\K1RRenderableObject.h" />
     <ClInclude Include="..\..\src\K1RRenderableObjectList.h" />
     <ClInclude Include="..\..\src\K1RRenderer.h" />
@@ -31,6 +30,7 @@
     <ClInclude Include="..\..\src\K1RWin32Platform.h" />
     <ClInclude Include="..\..\src\K1RWindow.h" />
     <ClInclude Include="..\..\src\K1RWindowWin32.h" />
+    <ClInclude Include="..\..\src\Math\K1RMatrix.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\Asset\K1RAsset.cpp" />
