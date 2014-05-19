@@ -1,5 +1,4 @@
-#ifndef K1R_WINDOW_WIN32PLATFORM_H
-#define K1R_WINDOW_WIN32PLATFORM_H
+#pragma once
 
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
@@ -56,5 +55,3 @@ private:
 };
 
 }
-
-#endif

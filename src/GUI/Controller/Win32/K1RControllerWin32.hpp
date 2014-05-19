@@ -1,6 +1,6 @@
 #pragma once
 
-#include "K1RWin32Platform.h"
+#include "GUI/Platform/Win32/K1RWin32Platform.hpp"
 #include "GUI/Controller/K1RController.hpp"
 
 namespace K1R {

@@ -1,4 +1,4 @@
-#include "K1RWin32Platform.h"
+#include "GUI/Platform/Win32/K1RWin32Platform.hpp"
 #include <crtdbg.h>
 
 namespace K1R {
