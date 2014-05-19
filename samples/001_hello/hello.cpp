@@ -1,4 +1,4 @@
-#include "K1RRenderLib.h"
+#include "K1RRenderLib.hpp"
 
 #define WIN32_LEAN_AND_MEAN
 #include <Windows.h>

@@ -20,7 +20,7 @@
     <ClInclude Include="..\..\src\GUI\Platform\Win32\K1RWin32Platform.hpp" />
     <ClInclude Include="..\..\src\GUI\Window\K1RWindow.hpp" />
     <ClInclude Include="..\..\src\GUI\Window\Win32\K1RWindowWin32.hpp" />
-    <ClInclude Include="..\..\src\K1RRenderLib.h" />
+    <ClInclude Include="..\..\src\K1RRenderLib.hpp" />
     <ClInclude Include="..\..\src\Math\K1RMatrix.hpp" />
     <ClInclude Include="..\..\src\Renderer\DX9\K1RDX9Defines.hpp" />
     <ClInclude Include="..\..\src\Renderer\DX9\K1RDX9RenderableObject.hpp" />

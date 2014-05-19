@@ -2,8 +2,10 @@ TODO
  * .obj vertex/color rendering
  * .obj material rendering
  * text drawing
- * refactoring source directory
 
 2014.05.19
+ * refactoring source directory
+
+???
  * key/mouse control
  * vertex/index buffer

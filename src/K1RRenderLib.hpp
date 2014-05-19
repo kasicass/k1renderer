@@ -1,5 +1,4 @@
-#ifndef K1R_RENDER_LIB_H
-#define K1R_RENDER_LIB_H
+#pragma once
 
 // Architecture
 // +----------------------------------------+
@@ -29,5 +28,3 @@
 #include "Renderer/K1RRenderableObject.hpp"
 
 // scene
-
-#endif
