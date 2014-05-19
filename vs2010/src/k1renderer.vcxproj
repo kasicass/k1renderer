@@ -11,9 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\src\Asset\K1RAsset.hpp" />
     <ClInclude Include="..\..\src\Core\Base\K1RBase.hpp" />
     <ClInclude Include="..\..\src\Core\Base\K1RDefines.hpp" />
-    <ClInclude Include="..\..\src\K1RAsset.h" />
+    <ClInclude Include="..\..\src\Core\Util\K1RPropList.hpp" />
     <ClInclude Include="..\..\src\K1RColor.h" />
     <ClInclude Include="..\..\src\K1RController.h" />
     <ClInclude Include="..\..\src\K1RControllerWin32.h" />
@@ -22,7 +23,6 @@
     <ClInclude Include="..\..\src\K1RDX9Renderer.h" />
     <ClInclude Include="..\..\src\K1RDX9Shader.h" />
     <ClInclude Include="..\..\src\K1RMatrix.h" />
-    <ClInclude Include="..\..\src\K1RPropList.h" />
     <ClInclude Include="..\..\src\K1RRenderableObject.h" />
     <ClInclude Include="..\..\src\K1RRenderableObjectList.h" />
     <ClInclude Include="..\..\src\K1RRenderer.h" />
@@ -33,13 +33,13 @@
     <ClInclude Include="..\..\src\K1RWindowWin32.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\K1RAsset.cpp" />
+    <ClCompile Include="..\..\src\Asset\K1RAsset.cpp" />
+    <ClCompile Include="..\..\src\Core\Util\K1RPropList.cpp" />
     <ClCompile Include="..\..\src\K1RControllerWin32.cpp" />
     <ClCompile Include="..\..\src\K1RDX9Defines.cpp" />
     <ClCompile Include="..\..\src\K1RDX9RenderableObject.cpp" />
     <ClCompile Include="..\..\src\K1RDX9Renderer.cpp" />
     <ClCompile Include="..\..\src\K1RDX9Shader.cpp" />
-    <ClCompile Include="..\..\src\K1RPropList.cpp" />
     <ClCompile Include="..\..\src\K1RRenderableObject.cpp" />
     <ClCompile Include="..\..\src\K1RRenderableObjectList.cpp" />
     <ClCompile Include="..\..\src\K1RRenderer.cpp" />
@@ -97,6 +97,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CRTDBG_MAP_ALLOC;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -113,6 +114,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\src</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

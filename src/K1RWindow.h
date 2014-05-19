@@ -2,7 +2,7 @@
 #define K1R_WINDOW_WINDOW_H
 
 #include "Core/Base/K1RBase.hpp"
-#include "K1RPropList.h"
+#include "Core/Util/K1RPropList.hpp"
 #include "K1RController.h"
 #include "K1RRenderer.h"
 

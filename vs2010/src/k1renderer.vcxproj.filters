@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClInclude Include="..\..\src\K1RPropList.h">
-      <Filter>Util</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\src\K1RWin32Platform.h">
       <Filter>Window</Filter>
     </ClInclude>
@@ -32,9 +29,6 @@
     <ClInclude Include="..\..\src\K1RColor.h">
       <Filter>Renderer</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\K1RAsset.h">
-      <Filter>Util</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\src\K1RShader.h">
       <Filter>Renderer</Filter>
     </ClInclude>
@@ -59,11 +53,14 @@
     <ClInclude Include="..\..\src\Core\Base\K1RDefines.hpp">
       <Filter>Core\Base</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\src\Core\Util\K1RPropList.hpp">
+      <Filter>Core\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Asset\K1RAsset.hpp">
+      <Filter>Asset</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\K1RPropList.cpp">
-      <Filter>Util</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\K1RWin32Platform.cpp">
       <Filter>Window</Filter>
     </ClCompile>
@@ -85,9 +82,6 @@
     <ClCompile Include="..\..\src\K1RRenderableObjectList.cpp">
       <Filter>Renderer</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\K1RAsset.cpp">
-      <Filter>Util</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\src\K1RShader.cpp">
       <Filter>Renderer</Filter>
     </ClCompile>
@@ -103,11 +97,14 @@
     <ClCompile Include="..\..\src\K1RDX9Shader.cpp">
       <Filter>RendererDX9</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\Core\Util\K1RPropList.cpp">
+      <Filter>Core\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Asset\K1RAsset.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Util">
-      <UniqueIdentifier>{03074ce4-f0a7-4647-b243-b6fa2e6647fa}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Window">
       <UniqueIdentifier>{8df94077-0d40-4b1e-82a5-aac583f97109}</UniqueIdentifier>
     </Filter>
@@ -131,6 +128,12 @@
     </Filter>
     <Filter Include="Core\Base">
       <UniqueIdentifier>{e8a889f3-c2ff-4165-8603-bfcf2feec125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Util">
+      <UniqueIdentifier>{03074ce4-f0a7-4647-b243-b6fa2e6647fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Asset">
+      <UniqueIdentifier>{e8f2ce27-de8a-4e09-9c75-1a9f37b6e434}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

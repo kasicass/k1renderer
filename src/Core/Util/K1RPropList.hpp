@@ -1,5 +1,4 @@
-#ifndef K1R_UTIL_PROPLIST_H
-#define K1R_UTIL_PROPLIST_H
+#pragma once
 
 #include "Core/Base/K1RBase.hpp"
 
@@ -33,5 +32,3 @@ private:
 };																																																																																							
 
 };
-
-#endif

@@ -11,12 +11,13 @@
 // +------------+---------------------------+
 // |                 Window                 |
 // +----------------------------------------+
-// |                Base/Util               |
+// |               Core/Asset               |
 // +----------------------------------------+
 
-// util
-#include "K1RPropList.h"
-#include "K1RAsset.h"
+// core/util
+#include "Core/Base/K1RBase.hpp"
+#include "Core/Util/K1RPropList.hpp"
+#include "Asset/K1RAsset.hpp"
 
 // window
 #include "K1RController.h"

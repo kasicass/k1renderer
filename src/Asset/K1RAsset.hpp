@@ -1,5 +1,4 @@
-#ifndef K1R_UTIL_ASSET_H
-#define K1R_UTIL_ASSET_H
+#pragma once
 
 // K1R::Asset::setRootDir("../../asset/");
 // K1R::Asset::readFile("shaders/color.vsh");
@@ -32,5 +31,3 @@ public:
 };
 
 }
-
-#endif
