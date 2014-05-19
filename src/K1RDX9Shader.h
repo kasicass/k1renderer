@@ -2,7 +2,7 @@
 #define K1R_RENDERER_DX9SHADER_H
 
 #include "Renderer/K1RShader.hpp"
-#include "K1RDX9Defines.h"
+#include "Renderer/DX9/K1RDX9Defines.hpp"
 
 namespace K1R {
 

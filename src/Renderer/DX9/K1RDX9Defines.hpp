@@ -1,5 +1,4 @@
-#ifndef K1R_RENDERER_DX9DEFINES_H
-#define K1R_RENDERER_DX9DEFINES_H
+#pragma once
 
 #include <d3d9.h>
 #include <d3dx9.h>
@@ -25,5 +24,3 @@ Device GetDevice();
 void SetDevice(Device dev);
 
 } }
-
-#endif

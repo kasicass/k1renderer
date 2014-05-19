@@ -1,4 +1,4 @@
-#include "K1RDX9Defines.h"
+#include "Renderer/DX9/K1RDX9Defines.hpp"
 
 namespace K1R { namespace DX9 {
 

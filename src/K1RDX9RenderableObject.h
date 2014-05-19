@@ -2,7 +2,7 @@
 #define K1R_RENDER_DX9RENDERABLE_OBJECT_H
 
 #include "Renderer/K1RRenderableObject.hpp"
-#include "K1RDX9Defines.h"
+#include "Renderer/DX9/K1RDX9Defines.hpp"
 
 namespace K1R {
 

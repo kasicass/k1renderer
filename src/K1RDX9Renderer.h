@@ -1,7 +1,7 @@
 #ifndef K1R_RENDERER_DX9RENDERER_H
 #define K1R_RENDERER_DX9RENDERER_H
 
-#include "K1RDX9Defines.h"
+#include "Renderer/DX9/K1RDX9Defines.hpp"
 #include "Renderer/K1RRenderer.hpp"
 #include "K1RWindowWin32.h"
 
