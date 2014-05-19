@@ -1,5 +1,4 @@
-#ifndef K1R_RENDERER_DX9SHADER_H
-#define K1R_RENDERER_DX9SHADER_H
+#pragma once
 
 #include "Renderer/K1RShader.hpp"
 #include "Renderer/DX9/K1RDX9Defines.hpp"
@@ -43,5 +42,3 @@ VertexShaderPtr MakeDX9VertexShader(const std::string &resourceID);
 PixelShaderPtr MakeDX9PixelShader(const std::string &resourceID);
 
 }
-
-#endif
