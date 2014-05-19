@@ -1,5 +1,4 @@
-#ifndef K1R_RENDER_DX9RENDERABLE_OBJECT_H
-#define K1R_RENDER_DX9RENDERABLE_OBJECT_H
+#pragma once
 
 #include "Renderer/K1RRenderableObject.hpp"
 #include "Renderer/DX9/K1RDX9Defines.hpp"
@@ -37,5 +36,3 @@ private:
 };
 
 }
-
-#endif

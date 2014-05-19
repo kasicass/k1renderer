@@ -1,7 +1,7 @@
 #include "Core/Base/K1RBase.hpp"
 
 #if K1R_WIN32
-#include "K1RDX9RenderableObject.h"
+#include "Renderer/DX9/K1RDX9RenderableObject.hpp"
 #endif
 
 namespace K1R {

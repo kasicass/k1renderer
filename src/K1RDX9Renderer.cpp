@@ -1,5 +1,5 @@
 #include "K1RDX9Renderer.h"
-#include "K1RDX9RenderableObject.h"
+#include "Renderer/DX9/K1RDX9RenderableObject.hpp"
 
 namespace K1R {
 

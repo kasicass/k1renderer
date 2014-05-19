@@ -17,9 +17,6 @@
     <ClInclude Include="..\..\src\K1RController.h">
       <Filter>Controller</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\K1RDX9RenderableObject.h">
-      <Filter>RendererDX9</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\src\K1RDX9Renderer.h">
       <Filter>RendererDX9</Filter>
     </ClInclude>
@@ -59,6 +56,9 @@
     <ClInclude Include="..\..\src\Renderer\DX9\K1RDX9Shader.hpp">
       <Filter>Renderer\DX9</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\src\Renderer\DX9\K1RDX9RenderableObject.hpp">
+      <Filter>Renderer\DX9</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\K1RWin32Platform.cpp">
@@ -72,9 +72,6 @@
     </ClCompile>
     <ClCompile Include="..\..\src\K1RControllerWin32.cpp">
       <Filter>Controller</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\K1RDX9RenderableObject.cpp">
-      <Filter>RendererDX9</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\K1RDX9Renderer.cpp">
       <Filter>RendererDX9</Filter>
@@ -101,6 +98,9 @@
       <Filter>Renderer\DX9</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\Renderer\DX9\K1RDX9Shader.cpp">
+      <Filter>Renderer\DX9</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Renderer\DX9\K1RDX9RenderableObject.cpp">
       <Filter>Renderer\DX9</Filter>
     </ClCompile>
   </ItemGroup>
