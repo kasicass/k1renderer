@@ -11,12 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\src\Core\Base\K1RBase.hpp" />
+    <ClInclude Include="..\..\src\Core\Base\K1RDefines.hpp" />
     <ClInclude Include="..\..\src\K1RAsset.h" />
-    <ClInclude Include="..\..\src\K1RBase.h" />
     <ClInclude Include="..\..\src\K1RColor.h" />
     <ClInclude Include="..\..\src\K1RController.h" />
     <ClInclude Include="..\..\src\K1RControllerWin32.h" />
-    <ClInclude Include="..\..\src\K1RDefines.h" />
     <ClInclude Include="..\..\src\K1RDX9Defines.h" />
     <ClInclude Include="..\..\src\K1RDX9RenderableObject.h" />
     <ClInclude Include="..\..\src\K1RDX9Renderer.h" />

@@ -1,7 +1,7 @@
 #ifndef K1R_WINDOW_WINDOW_H
 #define K1R_WINDOW_WINDOW_H
 
-#include "K1RBase.h"
+#include "Core/Base/K1RBase.hpp"
 #include "K1RPropList.h"
 #include "K1RController.h"
 #include "K1RRenderer.h"

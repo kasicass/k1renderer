@@ -1,8 +1,9 @@
 TODO
- + .obj vertex/color rendering
- + .obj material rendering
- + text drawing
+ * .obj vertex/color rendering
+ * .obj material rendering
+ * text drawing
+ * refactoring source directory
 
-DONE
- + key/mouse control
- + vertex/index buffer
+2014.05.19
+ * key/mouse control
+ * vertex/index buffer

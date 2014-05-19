@@ -13,12 +13,6 @@
     <ClInclude Include="..\..\src\K1RWindowWin32.h">
       <Filter>Window</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\K1RBase.h">
-      <Filter>Base</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\K1RDefines.h">
-      <Filter>Base</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\src\K1RRenderer.h">
       <Filter>Renderer</Filter>
     </ClInclude>
@@ -58,6 +52,12 @@
     </ClInclude>
     <ClInclude Include="..\..\src\K1RDX9Renderer.h">
       <Filter>RendererDX9</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Base\K1RBase.hpp">
+      <Filter>Core\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Core\Base\K1RDefines.hpp">
+      <Filter>Core\Base</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -111,9 +111,6 @@
     <Filter Include="Window">
       <UniqueIdentifier>{8df94077-0d40-4b1e-82a5-aac583f97109}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Base">
-      <UniqueIdentifier>{e8a889f3-c2ff-4165-8603-bfcf2feec125}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Renderer">
       <UniqueIdentifier>{b434eb0a-752a-4f5c-9192-e43baa8c6f6f}</UniqueIdentifier>
     </Filter>
@@ -128,6 +125,12 @@
     </Filter>
     <Filter Include="RendererDX9">
       <UniqueIdentifier>{9bec33dd-e30f-43cf-9e06-4e3a19170a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{0f30b848-9974-4382-b55a-118357d3070f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Base">
+      <UniqueIdentifier>{e8a889f3-c2ff-4165-8603-bfcf2feec125}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

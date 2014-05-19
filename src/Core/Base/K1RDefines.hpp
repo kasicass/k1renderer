@@ -1,6 +1,4 @@
-#ifndef K1R_DEFINES_H
-#define K1R_DEFINES_H
-
+#pragma once
 
 // platform
 #if defined(_MSC_VER)
@@ -23,7 +21,4 @@
 	#define K1R_GCC        1
 #else
     #error  MS Visual C++ or GCC needed
-#endif
-
-
 #endif
