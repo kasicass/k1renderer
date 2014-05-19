@@ -17,9 +17,6 @@
     <ClInclude Include="..\..\src\K1RController.h">
       <Filter>Controller</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\src\K1RDX9Renderer.h">
-      <Filter>RendererDX9</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\src\Core\Base\K1RBase.hpp">
       <Filter>Core\Base</Filter>
     </ClInclude>
@@ -59,6 +56,9 @@
     <ClInclude Include="..\..\src\Renderer\DX9\K1RDX9RenderableObject.hpp">
       <Filter>Renderer\DX9</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\src\Renderer\DX9\K1RDX9Renderer.hpp">
+      <Filter>Renderer\DX9</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\K1RWin32Platform.cpp">
@@ -72,9 +72,6 @@
     </ClCompile>
     <ClCompile Include="..\..\src\K1RControllerWin32.cpp">
       <Filter>Controller</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\K1RDX9Renderer.cpp">
-      <Filter>RendererDX9</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\Core\Util\K1RPropList.cpp">
       <Filter>Core\Util</Filter>
@@ -103,6 +100,9 @@
     <ClCompile Include="..\..\src\Renderer\DX9\K1RDX9RenderableObject.cpp">
       <Filter>Renderer\DX9</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\Renderer\DX9\K1RDX9Renderer.cpp">
+      <Filter>Renderer\DX9</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Window">
@@ -119,9 +119,6 @@
     </Filter>
     <Filter Include="Math">
       <UniqueIdentifier>{7287924a-b29a-4a0c-98cd-7c16bb124d58}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="RendererDX9">
-      <UniqueIdentifier>{9bec33dd-e30f-43cf-9e06-4e3a19170a67}</UniqueIdentifier>
     </Filter>
     <Filter Include="Core">
       <UniqueIdentifier>{0f30b848-9974-4382-b55a-118357d3070f}</UniqueIdentifier>

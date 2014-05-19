@@ -1,4 +1,4 @@
-#include "K1RDX9Renderer.h"
+#include "Renderer/DX9/K1RDX9Renderer.hpp"
 #include "Renderer/DX9/K1RDX9RenderableObject.hpp"
 
 namespace K1R {
