@@ -21,7 +21,7 @@
 
 // gui
 #include "GUI/Controller/K1RController.hpp"
-#include "K1RWindow.h"
+#include "GUI/Window/K1RWindow.hpp"
 
 // renderer
 #include "Renderer/K1RShader.hpp"

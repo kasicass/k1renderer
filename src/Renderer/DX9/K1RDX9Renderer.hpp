@@ -3,7 +3,7 @@
 
 #include "Renderer/DX9/K1RDX9Defines.hpp"
 #include "Renderer/K1RRenderer.hpp"
-#include "K1RWindowWin32.h"
+#include "GUI/Window/Win32/K1RWindowWin32.hpp"
 
 namespace K1R {
 

@@ -1,7 +1,7 @@
-#include "K1RWindow.h"
+#include "GUI/Window/K1RWindow.hpp"
 
 #if K1R_WIN32
-#include "K1RWindowWin32.h"
+#include "GUI/Window/Win32/K1RWindowWin32.hpp"
 #endif
 
 namespace K1R {

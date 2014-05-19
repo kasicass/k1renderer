@@ -18,9 +18,9 @@
     <ClInclude Include="..\..\src\GUI\Controller\K1RController.hpp" />
     <ClInclude Include="..\..\src\GUI\Controller\Win32\K1RControllerWin32.hpp" />
     <ClInclude Include="..\..\src\GUI\Platform\Win32\K1RWin32Platform.hpp" />
+    <ClInclude Include="..\..\src\GUI\Window\K1RWindow.hpp" />
+    <ClInclude Include="..\..\src\GUI\Window\Win32\K1RWindowWin32.hpp" />
     <ClInclude Include="..\..\src\K1RRenderLib.h" />
-    <ClInclude Include="..\..\src\K1RWindow.h" />
-    <ClInclude Include="..\..\src\K1RWindowWin32.h" />
     <ClInclude Include="..\..\src\Math\K1RMatrix.hpp" />
     <ClInclude Include="..\..\src\Renderer\DX9\K1RDX9Defines.hpp" />
     <ClInclude Include="..\..\src\Renderer\DX9\K1RDX9RenderableObject.hpp" />
@@ -37,8 +37,8 @@
     <ClCompile Include="..\..\src\Core\Util\K1RPropList.cpp" />
     <ClCompile Include="..\..\src\GUI\Controller\Win32\K1RControllerWin32.cpp" />
     <ClCompile Include="..\..\src\GUI\Platform\Win32\K1RWin32Platform.cpp" />
-    <ClCompile Include="..\..\src\K1RWindow.cpp" />
-    <ClCompile Include="..\..\src\K1RWindowWin32.cpp" />
+    <ClCompile Include="..\..\src\GUI\Window\K1RWindow.cpp" />
+    <ClCompile Include="..\..\src\GUI\Window\Win32\K1RWindowWin32.cpp" />
     <ClCompile Include="..\..\src\Renderer\DX9\K1RDX9Defines.cpp" />
     <ClCompile Include="..\..\src\Renderer\DX9\K1RDX9RenderableObject.cpp" />
     <ClCompile Include="..\..\src\Renderer\DX9\K1RDX9Renderer.cpp" />

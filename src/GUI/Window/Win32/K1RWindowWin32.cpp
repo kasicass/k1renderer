@@ -1,4 +1,4 @@
-#include "K1RWindowWin32.h"
+#include "GUI/Window/Win32/K1RWindowWin32.hpp"
 #include "GUI/Controller/Win32/K1RControllerWin32.hpp"
 #include "Core/Util/K1RPropList.hpp"
 

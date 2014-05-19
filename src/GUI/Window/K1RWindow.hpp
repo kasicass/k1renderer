@@ -1,5 +1,4 @@
-#ifndef K1R_WINDOW_WINDOW_H
-#define K1R_WINDOW_WINDOW_H
+#pragma once
 
 #include "Core/Base/K1RBase.hpp"
 #include "Core/Util/K1RPropList.hpp"
@@ -44,5 +43,3 @@ private:
 Window *MakeWindow(PropList& ParamList);
 
 };
-
-#endif

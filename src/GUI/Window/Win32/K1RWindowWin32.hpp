@@ -1,7 +1,6 @@
-#ifndef K1R_WINDOW_WIN32_H
-#define K1R_WINDOW_WIN32_H
+#pragma once
 
-#include "K1RWindow.h"
+#include "GUI/Window/K1RWindow.hpp"
 #include "GUI/Platform/Win32/K1RWin32Platform.hpp"
 #include <string>
 
@@ -29,5 +28,3 @@ private:
 };
 
 }
-
-#endif
