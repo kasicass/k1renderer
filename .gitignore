@@ -1,0 +1,11 @@
+bin/
+obj/
+*.suo
+Build
+Lib
+*.opensdf
+*.sdf
+*.user
+ipch
+*.exe
+*.swp
