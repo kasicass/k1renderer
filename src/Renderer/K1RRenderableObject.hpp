@@ -1,7 +1,6 @@
-#ifndef K1R_RENDER_RENDERABLE_OBJECT_H
-#define K1R_RENDER_RENDERABLE_OBJECT_H
+#pragma once
 
-#include "K1RColor.h"
+#include "Renderer/K1RColor.hpp"
 #include <memory>
 
 namespace K1R {
@@ -45,5 +44,3 @@ typedef std::shared_ptr<RenderableObject> RenderableObjectPtr;
 RenderableObjectPtr MakeRenderableObject(VERTEX_TYPE type);
 
 }
-
-#endif

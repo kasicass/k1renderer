@@ -24,9 +24,9 @@
 #include "K1RWindow.h"
 
 // renderer
-#include "K1RShader.h"
-#include "K1RRenderableObject.h"
-#include "K1RRenderer.h"
+#include "Renderer/K1RShader.hpp"
+#include "Renderer/K1RRenderer.hpp"
+#include "Renderer/K1RRenderableObject.hpp"
 
 // scene
 

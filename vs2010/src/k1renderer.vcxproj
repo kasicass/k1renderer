@@ -15,22 +15,22 @@
     <ClInclude Include="..\..\src\Core\Base\K1RBase.hpp" />
     <ClInclude Include="..\..\src\Core\Base\K1RDefines.hpp" />
     <ClInclude Include="..\..\src\Core\Util\K1RPropList.hpp" />
-    <ClInclude Include="..\..\src\K1RColor.h" />
     <ClInclude Include="..\..\src\K1RController.h" />
     <ClInclude Include="..\..\src\K1RControllerWin32.h" />
     <ClInclude Include="..\..\src\K1RDX9Defines.h" />
     <ClInclude Include="..\..\src\K1RDX9RenderableObject.h" />
     <ClInclude Include="..\..\src\K1RDX9Renderer.h" />
     <ClInclude Include="..\..\src\K1RDX9Shader.h" />
-    <ClInclude Include="..\..\src\K1RRenderableObject.h" />
-    <ClInclude Include="..\..\src\K1RRenderableObjectList.h" />
-    <ClInclude Include="..\..\src\K1RRenderer.h" />
     <ClInclude Include="..\..\src\K1RRenderLib.h" />
-    <ClInclude Include="..\..\src\K1RShader.h" />
     <ClInclude Include="..\..\src\K1RWin32Platform.h" />
     <ClInclude Include="..\..\src\K1RWindow.h" />
     <ClInclude Include="..\..\src\K1RWindowWin32.h" />
     <ClInclude Include="..\..\src\Math\K1RMatrix.hpp" />
+    <ClInclude Include="..\..\src\Renderer\K1RColor.hpp" />
+    <ClInclude Include="..\..\src\Renderer\K1RRenderableObject.hpp" />
+    <ClInclude Include="..\..\src\Renderer\K1RRenderableObjectList.hpp" />
+    <ClInclude Include="..\..\src\Renderer\K1RRenderer.hpp" />
+    <ClInclude Include="..\..\src\Renderer\K1RShader.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\Asset\K1RAsset.cpp" />
@@ -40,13 +40,13 @@
     <ClCompile Include="..\..\src\K1RDX9RenderableObject.cpp" />
     <ClCompile Include="..\..\src\K1RDX9Renderer.cpp" />
     <ClCompile Include="..\..\src\K1RDX9Shader.cpp" />
-    <ClCompile Include="..\..\src\K1RRenderableObject.cpp" />
-    <ClCompile Include="..\..\src\K1RRenderableObjectList.cpp" />
-    <ClCompile Include="..\..\src\K1RRenderer.cpp" />
-    <ClCompile Include="..\..\src\K1RShader.cpp" />
     <ClCompile Include="..\..\src\K1RWin32Platform.cpp" />
     <ClCompile Include="..\..\src\K1RWindow.cpp" />
     <ClCompile Include="..\..\src\K1RWindowWin32.cpp" />
+    <ClCompile Include="..\..\src\Renderer\K1RRenderableObject.cpp" />
+    <ClCompile Include="..\..\src\Renderer\K1RRenderableObjectList.cpp" />
+    <ClCompile Include="..\..\src\Renderer\K1RRenderer.cpp" />
+    <ClCompile Include="..\..\src\Renderer\K1RShader.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8C70C4C7-7002-40C2-B468-82EC00A468ED}</ProjectGuid>

@@ -1,4 +1,4 @@
-#include "K1RRenderer.h"
+#include "Renderer/K1RRenderer.hpp"
 #include "K1RDX9Renderer.h"
 
 namespace K1R {

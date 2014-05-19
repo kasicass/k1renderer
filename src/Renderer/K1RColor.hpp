@@ -1,5 +1,4 @@
-#ifndef K1R_RENDER_COLOR_H
-#define K1R_RENDER_COLOR_H
+#pragma once
 
 namespace K1R {
 
@@ -10,5 +9,3 @@ inline Color RGBA(unsigned int r, unsigned int g, unsigned int b, unsigned int a
 }
 
 }
-
-#endif

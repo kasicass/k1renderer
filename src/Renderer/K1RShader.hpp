@@ -1,5 +1,4 @@
-#ifndef K1R_RENDERER_SHADER_H
-#define K1R_RENDERER_SHADER_H
+#pragma once
 
 #include <memory>
 #include <string>
@@ -36,5 +35,3 @@ VertexShaderPtr MakeVertexShader(const std::string &resourceID);
 PixelShaderPtr MakePixelShader(const std::string &resourceID);
 
 }
-
-#endif

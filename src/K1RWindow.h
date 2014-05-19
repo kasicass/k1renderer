@@ -4,7 +4,7 @@
 #include "Core/Base/K1RBase.hpp"
 #include "Core/Util/K1RPropList.hpp"
 #include "K1RController.h"
-#include "K1RRenderer.h"
+#include "Renderer/K1RRenderer.hpp"
 
 namespace K1R {
 

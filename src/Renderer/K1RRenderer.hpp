@@ -1,7 +1,6 @@
-#ifndef K1R_RENDERER_RENDERER_H
-#define K1R_RENDERER_RENDERER_H
+#pragma once
 
-#include "K1RRenderableObjectList.h"
+#include "Renderer/K1RRenderableObjectList.hpp"
 #include <memory>
 
 namespace K1R {
@@ -41,5 +40,3 @@ typedef std::shared_ptr<Renderer> RendererPtr;
 RendererPtr MakeRenderer(eRendererType type);
 
 };
-
-#endif

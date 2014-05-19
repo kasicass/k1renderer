@@ -1,7 +1,6 @@
-#ifndef K1R_RENDER_RENDERABLE_OBJECT_LIST_H
-#define K1R_RENDER_RENDERABLE_OBJECT_LIST_H
+#pragma once
 
-#include "K1RRenderableObject.h"
+#include "Renderer/K1RRenderableObject.hpp"
 #include <vector>
 #include <memory>
 
@@ -28,5 +27,3 @@ typedef std::shared_ptr<RenderableObjectList> RenderableObjectListPtr;
 RenderableObjectListPtr MakeRenderableObjectList();
 
 }
-
-#endif
