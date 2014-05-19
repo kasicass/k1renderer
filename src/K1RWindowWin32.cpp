@@ -1,5 +1,5 @@
 #include "K1RWindowWin32.h"
-#include "K1RControllerWin32.h"
+#include "GUI/Controller/Win32/K1RControllerWin32.hpp"
 #include "Core/Util/K1RPropList.hpp"
 
 namespace K1R {

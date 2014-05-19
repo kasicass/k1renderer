@@ -19,8 +19,8 @@
 #include "Core/Util/K1RPropList.hpp"
 #include "Asset/K1RAsset.hpp"
 
-// window
-#include "K1RController.h"
+// gui
+#include "GUI/Controller/K1RController.hpp"
 #include "K1RWindow.h"
 
 // renderer

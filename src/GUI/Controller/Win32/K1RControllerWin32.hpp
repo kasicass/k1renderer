@@ -1,8 +1,7 @@
-#ifndef K1R_WINDOW_CONTROLLER_WIN32_H
-#define K1R_WINDOW_CONTROLLER_WIN32_H
+#pragma once
 
 #include "K1RWin32Platform.h"
-#include "K1RController.h"
+#include "GUI/Controller/K1RController.hpp"
 
 namespace K1R {
 
@@ -35,5 +34,3 @@ private:
 };
 
 }
-
-#endif

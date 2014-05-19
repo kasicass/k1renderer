@@ -1,5 +1,4 @@
-#ifndef K1R_WINDOW_CONTROLLER_H
-#define K1R_WINDOW_CONTROLLER_H
+#pragma once
 
 #include <memory>
 
@@ -64,5 +63,3 @@ public:
 typedef std::shared_ptr<Controller> ControllerPtr;
 
 }
-
-#endif

@@ -15,8 +15,8 @@
     <ClInclude Include="..\..\src\Core\Base\K1RBase.hpp" />
     <ClInclude Include="..\..\src\Core\Base\K1RDefines.hpp" />
     <ClInclude Include="..\..\src\Core\Util\K1RPropList.hpp" />
-    <ClInclude Include="..\..\src\K1RController.h" />
-    <ClInclude Include="..\..\src\K1RControllerWin32.h" />
+    <ClInclude Include="..\..\src\GUI\Controller\K1RController.hpp" />
+    <ClInclude Include="..\..\src\GUI\Controller\Win32\K1RControllerWin32.hpp" />
     <ClInclude Include="..\..\src\K1RRenderLib.h" />
     <ClInclude Include="..\..\src\K1RWin32Platform.h" />
     <ClInclude Include="..\..\src\K1RWindow.h" />
@@ -35,7 +35,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\src\Asset\K1RAsset.cpp" />
     <ClCompile Include="..\..\src\Core\Util\K1RPropList.cpp" />
-    <ClCompile Include="..\..\src\K1RControllerWin32.cpp" />
+    <ClCompile Include="..\..\src\GUI\Controller\Win32\K1RControllerWin32.cpp" />
     <ClCompile Include="..\..\src\K1RWin32Platform.cpp" />
     <ClCompile Include="..\..\src\K1RWindow.cpp" />
     <ClCompile Include="..\..\src\K1RWindowWin32.cpp" />

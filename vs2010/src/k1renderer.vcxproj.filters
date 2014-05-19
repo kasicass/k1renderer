@@ -11,12 +11,6 @@
       <Filter>Window</Filter>
     </ClInclude>
     <ClInclude Include="..\..\src\K1RRenderLib.h" />
-    <ClInclude Include="..\..\src\K1RControllerWin32.h">
-      <Filter>Controller</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\src\K1RController.h">
-      <Filter>Controller</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\src\Core\Base\K1RBase.hpp">
       <Filter>Core\Base</Filter>
     </ClInclude>
@@ -59,6 +53,12 @@
     <ClInclude Include="..\..\src\Renderer\DX9\K1RDX9Renderer.hpp">
       <Filter>Renderer\DX9</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\src\GUI\Controller\Win32\K1RControllerWin32.hpp">
+      <Filter>GUI\Controller\Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GUI\Controller\K1RController.hpp">
+      <Filter>GUI\Controller</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\K1RWin32Platform.cpp">
@@ -69,9 +69,6 @@
     </ClCompile>
     <ClCompile Include="..\..\src\K1RWindowWin32.cpp">
       <Filter>Window</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\src\K1RControllerWin32.cpp">
-      <Filter>Controller</Filter>
     </ClCompile>
     <ClCompile Include="..\..\src\Core\Util\K1RPropList.cpp">
       <Filter>Core\Util</Filter>
@@ -103,6 +100,9 @@
     <ClCompile Include="..\..\src\Renderer\DX9\K1RDX9Renderer.cpp">
       <Filter>Renderer\DX9</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\src\GUI\Controller\Win32\K1RControllerWin32.cpp">
+      <Filter>GUI\Controller\Win32</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Window">
@@ -110,12 +110,6 @@
     </Filter>
     <Filter Include="Renderer">
       <UniqueIdentifier>{b434eb0a-752a-4f5c-9192-e43baa8c6f6f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Controller">
-      <UniqueIdentifier>{37e215a2-cba6-4753-b25e-0dd0e8bc514f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Scene">
-      <UniqueIdentifier>{4abb9a03-bef4-4cc5-aee1-c34d5fcc09a3}</UniqueIdentifier>
     </Filter>
     <Filter Include="Math">
       <UniqueIdentifier>{7287924a-b29a-4a0c-98cd-7c16bb124d58}</UniqueIdentifier>
@@ -134,6 +128,15 @@
     </Filter>
     <Filter Include="Renderer\DX9">
       <UniqueIdentifier>{671aaf91-7ed0-4e11-a96b-b8902900f241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{2fbdd1b0-8a25-4f34-8e33-1c0bf7f9a1d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Controller">
+      <UniqueIdentifier>{ce3976cc-46ab-496b-9e3f-bae4f21f5618}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Controller\Win32">
+      <UniqueIdentifier>{822d0852-a438-4711-adfc-060cba9b4073}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
